@@ -1,0 +1,23 @@
+{
+  "name": "techno-admin-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "proxy": "https://techno-backend-76p3.onrender.com",
+  "dependencies": {
+    "@handsontable/react": "^12.1.0",
+    "handsontable": "^12.1.0",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-router-dom": "^6.22.3",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npm install && react-scripts build",
+    "handshake": "npm install && npm run build"
+  }
+}
